@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply bg-background;
+}
+
+.radial-gradient-hr {
+    border: none;
+    height: 1px; /* Adjust the height as needed */
+    background-image: radial-gradient(circle, rgba(238,240,105,1) 0%, rgba(229,42,152,0) 90%);
+}
+
+.hero {
+    background-image: radial-gradient(circle, rgba(255,255,255,0.05078080890559349) 0%, rgba(229,42,152,0) 40%);
+}
+
+.grad-headline {
+    background: linear-gradient(90deg, #F069CA 0%, #EDF069 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.check_icon {
+    border-radius: 100%;
+}
+
+.custom_card {
+    background-color: rgba(255, 255, 255, 0.060);
+    border: 1px solid rgba(255, 255, 255, 0.119);
+}
+
+.p_1 {
+    top: 50%;
+    left: 45%;
+    transform: rotate(10deg);
+}
+
+.p_2 {
+    top: 45%;
+    left: 30%;
+    transform: rotate(-9deg);
+    scale: 1.3;
+}
+.p_3 {
+    top: 30%;
+    left: 21%;
+    transform: rotate(12deg);
+    scale: 1.3;
+}
+
+.p_4 {
+    top: 43%;
+    right: 19%;
+    transform: rotate(-16deg);
+    scale: 1.3;
+}
+
+.p_5 {
+    top: 70%;
+    left: 20%;
+    transform: rotate(-17deg);
+}
+
+.p_6 {
+    top: 65%;
+    right: 25%;
+    transform: rotate(12deg);
+    scale: 1.2;
+}
+
+.p_7 {
+    top: 69%;
+    right: 45%;
+    transform: rotate(2deg);
+}
