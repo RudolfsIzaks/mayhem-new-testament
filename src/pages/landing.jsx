@@ -133,6 +133,20 @@ function LandingPage() {
         <div className="lg:absolute bg-accent text-white rounded-lg px-5 py-2 p_7"><p className="font-montserrat font-bold text-lg">LTV Optimization</p></div>
       </div>
       <Testimonials/>
+      <footer className="mt-30 md:mt-30">
+        <div className="md:p-20 mt-20 flex md:justify-between justify-center items-center flex-col-reverse md:flex-row">
+          <div className="mt-10 md:mt-0 flex flex-col items-center justify-center w-full md:w-auto">
+           <img src={logo} className="md:w-24 w-12" />
+           <p className="md:text-xs font-montserrat font-light italic text-white text-center md:text-start md:my-0 mb-20">More Growth, More Turnover, More Clients, Guaranteed.</p>
+          </div>
+          <div>
+          <button className="bg-yellow border-2 border-yellow px-3 md:px-5 h-10 md:h-12 rounded-sm font-black text-lg md:text-xl hover:bg-transparent hover:text-yellow hover:scale-110 duration-200" onClick={handleNavigation}>
+            Book the call already!
+          </button>
+          </div>
+        </div>
+        <p className="text-center md:text-md text-xs italic px-12 md:px-0 text-gray-700 py-4">All Rights Reserved. MayhemAgency. If you're here already, just schedule the damn call...</p>
+      </footer>
     </>
   );
 }

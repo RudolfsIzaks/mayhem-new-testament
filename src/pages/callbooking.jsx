@@ -115,12 +115,6 @@ function CallBooking() {
           loaded={particlesLoaded}
         />
       )}
-      <button
-        className="bg-blue-500 text-white font-bold py-2 px-4 rounded mt-4"
-        onClick={showConfettiEffect}
-      >
-        Trigger Test Confetti
-      </button>
       <p className="font-montserrat font-semibold text-white text-lg italic mt-5 mb-5">
         Maximize growth with virtually no risk
       </p>
