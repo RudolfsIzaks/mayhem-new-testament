@@ -84,3 +84,65 @@ background-clip: text;
     right: 45%;
     transform: rotate(2deg);
 }
+
+@media(max-width: 720px) {
+    .p_1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: rotate(0deg);
+        width: auto;
+    }
+    .p_2 {
+        position: relative;
+        scale: 1;
+        border-radius: 8px;
+        top: 0;
+        left: 0;
+        transform: rotate(0deg);
+        width: auto;
+    }
+    .p_3 {
+        position: relative;
+        scale: 1;
+        border-radius: 8px;
+        top: 0;
+        left: 0;
+        transform: rotate(0deg);
+        width: auto;
+    }
+    .p_4 {
+        position: relative;
+        scale: 1;
+        border-radius: 8px;
+        top: 0;
+        left: 0;
+        transform: rotate(0deg);
+        width: auto;
+    }
+    .p_5 {
+        position: relative;
+        scale: 1;
+        border-radius: 8px;
+        top: 0;
+        left: 0;
+        transform: rotate(0deg);
+        width: auto;
+    }
+    .p_6 {
+        position: relative;
+        scale: 1;
+        border-radius: 8px;
+        top: 0;
+        left: 0;
+        transform: rotate(0deg);
+        width: auto;
+    }
+    .p_7 {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: rotate(0deg);
+        width: auto;
+    }
+}
